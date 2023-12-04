@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.head{
+    color: #e473ff;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    margin-left: 95px;
+    text-transform: uppercase;
+    height: 40px;
+}

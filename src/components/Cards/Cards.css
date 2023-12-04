@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.card{
+    min-width: 18%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+.img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.title{
+    margin-top: 0;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Righteous', sans-serif;
+    margin-bottom: 2px;
+}
+.date{
+    margin-top: 0;
+    color: #f20e89;
+    font-size: 12px;
+    font-family: 'Righteous', sans-serif;
+    margin-bottom: 5px;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background-color: #343434;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Righteous', sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+button:hover{
+    background-color: #f20e89;
+}
+
+/*#f20e89*/
